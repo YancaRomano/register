@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Laila', serif;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: #CD5C5C;
+}
+main {
+	width: 90vw;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.containerFormulario {
+	width: 90vw;
+	display: flex;
+	justify-content: center;
+	margin-top: 1.5cm;
+}
+.containerFormulario__img {
+	width: 36vw;
+	align-items: center;
+}
+.form-photo {
+	width: 470px;
+	height: 525px;
+}
+.containerFormulario__form {
+	width: 36vw;
+	height: 82.5vh;
+	display: flex;
+	justify-content: stretch;
+	flex-direction: column;
+	background-color: #fff;
+	padding: 25px;
+}
+.containerFormulario__title {
+	font-size: 22px;
+	margin-top: 10px;
+}
+.paragraph-one {
+	font-size: 14px;
+}
+.paragraph-two {
+	font-size: 14px;
+	margin-top: 20px;
+}
+.box-input {
+	width: 30vw;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.name {
+	font-size: 15px;
+}
+.input-name,
+.input-last,
+.input-phone,
+.input-email,
+.input-password,
+.input-confirm {
+	height: 30px;
+}
+ .receive-crowdrise, .termos{
+	font-size: 15px;
+ }
+.hr{
+	width: 60px;
+	height:4px;
+	display: inline-flex;
+	background-color: #CD5C5C;
+	border: none;
+	margin-top: 5px;
+}
+.paragraph-last{
+	font-size:13px;
+	margin-top: 23px;
+}
+a {
+	text-decoration: none;
+	color: #CD5C5C;
+}
+@media (max-width: 600px) {
+	.containerFormulario__form {
+		width: 90vw;
+	}
+	.containerFormulario__img {
+		display: none;
+	}
+}

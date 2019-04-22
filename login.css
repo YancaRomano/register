@@ -1,0 +1,84 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family: 'Laila', serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Laila');
+
+body {
+	width: 100vw;
+	background-color: #CD5C5C;
+}
+main {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.containerLogin {
+	width: 70vw;
+	height: 75vh;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #fff;
+	box-shadow: 2px 2px 9px -1px #000;
+	margin-top: 2cm;
+}
+h1{
+	font-size: 34px;
+	color: #CD5C5C;
+}
+.containerLogin__form{
+    font-size: 25px;
+}
+p{
+	font-size: 20px;
+}
+.box-input {
+	height: 5vh;
+}
+button {
+	width: 15vw;
+	height: 5vh;
+	background: #CD5C5C;
+	border: none;
+	margin-top: 0.5cm;
+	margin-left: 0.5cm;
+}
+a{
+	text-decoration:none;
+	color: #CD5C5C;
+}
+@media (max-width: 600px) {
+	.containerLogin {
+		width: 80vw;
+		padding: 10px;
+	}
+	h1 {
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+	label {
+		font-size: 20px;
+	}
+	button {
+	width: 32vw;
+	height: 5vh;
+	background: #CD5C5C;
+	border: none;
+	margin-top: 0.5cm;
+	margin-left: 0.1cm;
+}
+	p {
+		font-size: 16px;
+		margin-top: 15px;
+	}
+}
+
+
+
+

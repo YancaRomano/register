@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Register</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<main>
+			<section class="containerFormulario">
+				<div class="containerFormulario__img">
+					<img src="assets/img.jpeg" alt="galera do vnw" class="form-photo">
+				</div>
+				<div class="containerFormulario__form">
+					<h1 class="containerFormulario__title">Welcome to CrowDrise</h1>
+					<p class="paragraph-one">Let's get you all set up so you can verify your nonprofit and begin setting up your first campaign!</p>
+					<p class="paragraph-two">Already have an account? <a href="login.html">Log in</a></p>
+					<form>
+						<div class="box-input">
+							<label class="name">
+								First Name
+								<input type="text" name="first name" placeholder="Nome" class="input-name" required>
+							</label>
+							<labe class="name">
+								Last Name
+								<input type="text" name="last name" placeholder="Sobrenome" class="input-last" required>
+							</label>
+						</div>
+						<div class="box-input">
+							<label class="name">
+								Phone
+								<input type="tel" name="phone" placeholder="(xx) xxxx-xxxx" class="input-phone" required>
+							</label>
+							<label class="name">
+								Email
+								<input type="email" name="email" placeholder="aqui@exemplo.com" class="input-email" required>
+							</label>
+						</div>
+						<div class="box-input">
+							<label class="name">
+								Password
+								<input type="password" name="password" class="input-password" required>
+							</label>
+							<label class="name">
+								Confirm password
+								<input type="password" name="confirm" class="input-confirm" required>
+							</label>
+						</div>
+						<label class="receive-crowdrise">
+							<input type="checkbox" name="emails">Yes, I want to receive Crowdrise's emails
+						</label><br>
+						<label class="termos">
+							<input type="checkbox" name="terms" required>I agree to the <a href=""> Terms, Privacy </a>and <a href="">Fess</a>
+						</label><br>
+						<hr class="hr">
+						<button class="button-enviar">Enviar cadastro</button>
+					</form>
+					<p class="paragraph-last">Don't work for a nonprofit? <a href="">You cant still fundcraise for one.</a></p>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
